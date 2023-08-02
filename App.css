@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.medicine-form,
+.cart {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.medicine-form label,
+.cart label {
+  display: block;
+  font-weight: bold;
+}
+
+.medicine-form select,
+.medicine-form input,
+.cart input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.medicine-form button,
+.cart button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+}
+
+.cart button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
